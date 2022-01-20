@@ -159,7 +159,7 @@ class SynthDataGenerator:
         fov = self.objs[obj_name]['cameraAngleX']
 
         # TODO: find appropriate material, maybe randomize, or find a way to apply mtl colours
-        textureId = pb.loadTexture('input/thumb-Brick-0191.jpg')
+        textureId = pb.loadTexture('input/textures/17.png')
         pb.changeVisualShape(obj_id, -1, textureUniqueId=textureId)
 
         i = 0
